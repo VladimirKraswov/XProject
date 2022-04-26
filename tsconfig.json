@@ -9,8 +9,16 @@
     "moduleResolution": "node",
     "noEmit": true,
     "strict": true,
-    "target": "esnext"
+    "target": "esnext",
+    "baseUrl": "." /* Base directory to resolve non-absolute module names. */,
+    "paths": {
+      "@src/*": ["src/*"],
+      "@app/*": ["./src/app/*"],
+      "@assets/*": ["./assets/*"],
+      "@theme": ["./src/ui/theme"]
+    }
   },
+  "rootDirs": ["."],
   "exclude": [
     "node_modules",
     "babel.config.js",
