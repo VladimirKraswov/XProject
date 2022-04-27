@@ -13,9 +13,10 @@
     "baseUrl": "." /* Base directory to resolve non-absolute module names. */,
     "paths": {
       "@src/*": ["src/*"],
-      "@app/*": ["./src/app/*"],
-      "@assets/*": ["./assets/*"],
-      "@theme": ["./src/ui/theme"]
+      "@app/*": ["src/app/*"],
+      "@assets/*": ["assets/*"],
+      "@theme/*": ["src/ui/theme/*"],
+      "@api/*": ["src/api/*"]
     }
   },
   "rootDirs": ["."],
