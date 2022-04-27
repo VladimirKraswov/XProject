@@ -12,11 +12,13 @@
     "target": "esnext",
     "baseUrl": "." /* Base directory to resolve non-absolute module names. */,
     "paths": {
-      "@src/*": ["src/*"],
-      "@app/*": ["src/app/*"],
       "@assets/*": ["assets/*"],
-      "@theme/*": ["src/ui/theme/*"],
-      "@api/*": ["src/api/*"]
+      "@core": ["./src/core"],
+      "@navigation/*": ["./src/navigation/*"],
+      "@theme": ["./src/ui/theme"],
+      "@api/*": ["./src/api/*"],
+      "@store": ["./src/store"],
+      "@src/*": ["src/*"]
     }
   },
   "rootDirs": ["."],

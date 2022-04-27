@@ -4,10 +4,10 @@ import MMKVStorage from 'react-native-mmkv-storage';
 
 import {AppProvider} from './AppProvider';
 
-const Storage = new MMKVStorage.Loader().initialize();
+const AppStorage = new MMKVStorage.Loader().initialize();
 
 const App: FC = () => {
   return <AppProvider />;
 };
 
-export {App, Storage};
+export {App, AppStorage};

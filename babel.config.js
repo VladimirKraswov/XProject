@@ -6,11 +6,13 @@ module.exports = {
       {
         root: './',
         alias: {
-          '@src': './src/',
-          '@app': './src/app/',
           '@assets': './assets/',
-          '@theme': './src/ui/theme/',
+          '@core': './src/core',
+          '@navigation': './src/navigation/',
+          '@store': './src/store',
+          '@theme': './src/ui/theme',
           '@api': './src/api/',
+          '@src': './src/',
         },
       },
     ],
